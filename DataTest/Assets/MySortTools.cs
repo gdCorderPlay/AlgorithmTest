@@ -182,7 +182,30 @@ public static class MySortTools
     /// </summary>
     public static void MergeSort(this int[]nums)
     {
-      
+        for(int i = 1; i < nums.Length; )
+        {
+            i *= 2;
+            int j = 0;
+            for (; j < nums.Length; j += i)
+            {
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
